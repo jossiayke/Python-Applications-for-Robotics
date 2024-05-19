@@ -1,0 +1,19 @@
+<launch>
+  
+  <arg name="rate" default="10" doc="Publisher Frequency is 10 by default"/>
+
+  <param name="publisher_frequency" type="double" value="$(arg rate)"/>
+
+  <arg name="arithmetic" default="addition" doc="Arithmetic is addition by default"/>
+
+  <param name="math_operation/operation_type" type="str" value="$(arg arithmetic)"/>
+
+  <arg name="increment" default="1" doc="Publisher Frequency is 10 by default"/>
+
+  <param name="math_operation/constant" type="int" value="$(arg increment)"/>
+
+  <include file="/home/jossi/rwa3_kebede_ws/src/exercise3_pkg/launch/counter_pub.launch" />
+
+  <include file="/home/jossi/rwa3_kebede_ws/src/exercise3_pkg/launch/counter_sub.launch" />
+
+</launch>

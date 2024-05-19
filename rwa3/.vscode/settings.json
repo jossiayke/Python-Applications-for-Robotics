@@ -1,0 +1,17 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        //"/home/jossi/rwa3_kebede_ws/devel/lib/python2.7/dist-packages",
+        "/home/jossi/rwa3_kebede_ws/src/exercise1_pkg/scripts",
+        "/home/jossi/rwa3_kebede_ws/src/exercise2_pkg/scripts",
+        "/home/jossi/rwa3_kebede_ws/src/exercise3_pkg/scripts"
+    ],
+    "python.analysis.extraPaths": [
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        //"/home/jossi/rwa3_kebede_ws/devel/lib/python2.7/dist-packages",
+        "/home/jossi/rwa3_kebede_ws/src/exercise1_pkg/scripts",
+        "/home/jossi/rwa3_kebede_ws/src/exercise2_pkg/scripts",
+        "/home/jossi/rwa3_kebede_ws/src/exercise3_pkg/scripts"
+    ],
+    "cmake.configureOnOpen": false
+}

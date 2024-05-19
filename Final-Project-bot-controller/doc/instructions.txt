@@ -1,0 +1,6 @@
+To run program, execute the command below:
+>> rosrun bot_controller bot_control
+
+Documentation of methods used in bot_controller_class are provided
+in the path below:
+>>> /src/enpm809e_summer22_final/doc/scripts 

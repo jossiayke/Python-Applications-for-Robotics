@@ -1,0 +1,12 @@
+Instruction on how to run Exercises.
+- For exercise 1:
+    - roscore
+    - rosrun exercise1_pkg counter_pub
+    - rosrun exercise1_pkg counter_sub
+- For exercise 2:
+    - roslaunch exercise2_pkg exercise2.launch
+- For exercise 3:
+    - roslaunch exercise3_pkg exercise3.launch
+    - roslaunch exercise3_pkg exercise3.launch increment:=#     "#- can be any integer"
+    - roslaunch exercise3_pkg exercise3.launch rate:=# arithmetic:=* increment:=#     
+                        "#- can be any integer"     *- can be addition, subtraction, or any string

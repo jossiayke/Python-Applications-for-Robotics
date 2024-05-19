@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ROS: Publisher Launch",
+            "type": "ros",
+            "request": "launch",
+            "target": "/home/jossi/rwa3_kebede_ws/src/exercise2_pkg/launch/counter_pub.launch"
+        },
+        {
+            "name": "ROS: Launch",
+            "type": "ros",
+            "request": "launch",
+            "target": "/home/jossi/rwa3_kebede_ws/src/exercise3_pkg/launch/counter_pub.launch"
+        },
+        {
+            "name": "ROS: Subscriber Launch",
+            "type": "ros",
+            "request": "launch",
+            "target": "/home/jossi/rwa3_kebede_ws/src/exercise2_pkg/launch/counter_sub.launch"
+        },
+        {
+            "name": "ROS: Subscriber Launch",
+            "type": "ros",
+            "request": "launch",
+            "target": "/home/jossi/rwa3_kebede_ws/src/exercise3_pkg/launch/counter_sub.launch"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

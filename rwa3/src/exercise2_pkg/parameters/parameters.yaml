@@ -1,0 +1,5 @@
+publisher_frequency: 10
+math_operation:
+  # "addition" or "subtraction"
+  operation_type: "subtraction" 
+  constant: 2

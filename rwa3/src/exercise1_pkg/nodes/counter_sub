@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+from exercise1_pkg.counter_sub_class import MySubscriber
+
+if __name__ == "__main__":
+    my_subscriber = MySubscriber()

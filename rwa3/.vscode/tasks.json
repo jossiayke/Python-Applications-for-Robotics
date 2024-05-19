@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "catkin: build",
+			"type": "shell",
+			"command": "catkin build",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}, 
+		},
+		{
+            "label": "publisher",
+            "type": "shell",
+            "command": "roslaunch exercise1_pkg counter_pub.launch",
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        },
+		{
+            "label": "subscriber",
+            "type": "shell",
+            "command": "roslaunch exercise1_pkg counter_sub.launch",
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+	]
+}

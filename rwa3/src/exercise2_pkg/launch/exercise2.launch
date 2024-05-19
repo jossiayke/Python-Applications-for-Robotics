@@ -1,0 +1,15 @@
+<launch>
+
+  <rosparam file="$(find exercise2_pkg)/parameters/parameters.yaml" />
+
+  <rosparam command="load" file="$(find exercise2_pkg)/parameters/parameters.yaml" />
+
+  <rosparam command="dump" file="$(find exercise2_pkg)/parameters/parameters.yaml" />
+  
+  <rosparam command="dump" file="$(find exercise2_pkg)/parameters/parameters.yaml" />
+
+  <include file="/home/jossi/rwa3_kebede_ws/src/exercise2_pkg/launch/counter_pub.launch" />
+
+  <include file="/home/jossi/rwa3_kebede_ws/src/exercise2_pkg/launch/counter_sub.launch" />
+
+</launch>

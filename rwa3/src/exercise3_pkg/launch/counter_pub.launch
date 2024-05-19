@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="exercise3_pkg" type="counter_pub" name="counter_pub" output="screen"/>
+</launch>

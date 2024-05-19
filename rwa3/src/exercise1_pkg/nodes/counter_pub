@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+#from my_package_pub.my_publisher import MyPublisher
+
+from exercise1_pkg.counter_pub_class import MyPublisher
+
+if __name__ == "__main__":
+    my_publisher = MyPublisher(rate=10)
+    my_publisher.arithmetic()
